@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
+        <title>Fix this ugly code!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+         <h1 class="header-text">Fix this ugly code!</h1>
+
+            <br/>
+
+            <p class="paragraph-styles">
+              This page is full of lots of violations of the DRY principle (Don't Repeat Yourself) along with a number of other violations of HTML markup best practices.
+            </p>
+            <p class="paragraph-styles">
+              Your goal is to refactor the HTML, CSS and JavaScript on this page so that you have:
+              <pre>
+                1. a clear separation of concerns between HTML, CSS and JavaScript
+              </pre>
+            </p>
+              <button id="button" onclick="myFunction()">Click Here to See Suggested Refactoring Path!
+              </button>
+
+              <br/>
+            
+              <ol id="see-list">
+                <li class="list-item">1. Refactor <span class="blue-txt">inline styles</span> (into the head tag or an external stylesheet).</li>
+                <li class="list-item">2. Refactor <span class="blue-txt">duplication</span> that exists in the inline style tags.</li>
+                <li class="list-item">3. Refactor <span class="blue-txt">markup</span> to use appropriate html elements.</li>
+                <li class="list-item">4. Refactor <span class="blue-txt">styles</span> to eliminate the property duplication.</li>
+                <li class="list-item">5. Refactor <span class="blue-txt">javascript</span> to eliminate inline click handler.</li>
+              </ol>
+
+          <br/>
+
+          <section id="note">
+            While there a number of tools available that can assist in making this refactoring easier I want to challenge you to do this refactor with nothing but your brain and a text editor.
+          </section>
+
+          <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

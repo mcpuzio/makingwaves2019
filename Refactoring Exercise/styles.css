@@ -1,0 +1,36 @@
+.header-text {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.paragraph-styles {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: black;
+}
+
+#button {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#see-list {
+  visibility: hidden;
+}
+
+.list-item {
+  text-indent: 10px;
+}
+
+.blue-text {
+  font-weight: bold;
+  color: blue;
+  display: inline;
+}
+
+#note {
+  color: aqua;
+  background: blue;
+  padding: 10px;
+}
